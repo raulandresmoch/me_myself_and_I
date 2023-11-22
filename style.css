@@ -1,0 +1,87 @@
+html{
+    background-color: black;
+}
+
+.hero {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    color: #9BBEC8;
+    margin: 0;
+}
+
+.subtitulo p {
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+
+.resume {
+    background-color: #164863;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen .pic {
+    margin-top: 50px;
+    padding-bottom: 0;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.hello {
+    margin-top: 25px;
+    padding-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #DDF2FD;
+}
+
+.resume .me{
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    width: 16rem;
+    color: white;
+}
+
+.me span{
+    color: #C5E898;
+}
+
+.skills_container {
+    padding-top: 30pxpx;
+    background-color: #DDF2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills_container h3 {
+    font-family: 'PT Serif', serif;
+    color: #164863;
+}
+
+.cuadro_skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #164863;
+    width: 70%;
+    height: 10rem;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.cuadro_skills img{
+    height: 50px;
+}
