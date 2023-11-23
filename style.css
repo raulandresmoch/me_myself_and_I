@@ -1,6 +1,3 @@
-html{
-    background-color: black;
-}
 
 .hero {
     padding-top: 80px;
@@ -58,12 +55,13 @@ html{
 }
 
 .skills_container {
-    padding-top: 30pxpx;
+    padding-top: 30px;
     background-color: #DDF2FD;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .skills_container h3 {
@@ -84,6 +82,64 @@ html{
 
 .cuadro_skills img{
     height: 50px;
+}
+
+.contact {
+    font-family: 'PT Serif', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.contact h3 {
+    color: #DDF2FD;
+    margin-bottom: 0;
+}
+
+.contact p {
+    font-family: 'Roboto', sans-serif;
+    color: #DDF2FD;
+}
+
+.contact .cont_but{
+    background: #9BBEC8;
+    border: none;
+    border-radius: 3px;
+}
+
+.bottom-container{
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #DDF2FD;
+    padding-bottom: 50px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #DDF2FD;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.copyright{
+    justify-self: last baseline;
+}
+
+@media (max-width: 480px) {
+    .cuadro_skills{
+        width: 90%;
+    }
+
+    .cuadro_skills img{
+        height: 35px;
+    }
+
+    .subtitulo p{
+        flex-direction: column;
+    }
 }
 
 .gradient-background {
