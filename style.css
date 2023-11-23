@@ -103,7 +103,11 @@
     color: #DDF2FD;
 }
 
-.contact .cont_but{
+.contact a{
+    text-decoration: none;
+    text-align: center;
+    color: #164863;
+    width: 110px;
     background: #9BBEC8;
     border: none;
     border-radius: 3px;
